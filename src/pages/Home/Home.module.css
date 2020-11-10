@@ -1,0 +1,9 @@
+.home {
+    display: flex;
+    padding: 10vh 3vw 10vh 3vw;
+    height: 80vh;
+}
+body{
+    background-color: transparent linear-gradient(180deg, #000000C9 0%, #383838A6 50%, #41414140 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

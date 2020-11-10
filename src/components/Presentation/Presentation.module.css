@@ -1,0 +1,28 @@
+.container {
+    background-color: rgba(200, 200, 200, 0.2);
+    width: 35%;
+    padding-top: 30px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E8E8E8;
+}
+
+.title{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.picContainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+.profilePic {
+    width: 100%;
+    height: 100%;
+}
