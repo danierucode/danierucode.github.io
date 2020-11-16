@@ -1,27 +1,21 @@
 import React from 'react'
 import Styles from './MenuElement.module.css'
-import { connect } from 'react-redux'
 
 const MenuElement = (props) => {
     return (
-        <div
+        <a
             className={Styles.container}
-            onClick={() => props.handleClick(props.name)}
+            href={`#${props.name}`}
+            onClick={() => {
+                props.handleClick(props.name)
+            }}
         >
             <p
-                className={props.option === props.name ? `${Styles.Selected} ${Styles.text}` : Styles.text}
+                className={props.selectedOption === props.name ? `${Styles.selected} ${Styles.text}` : Styles.text}
             >{props.name}</p>
             <div className={Styles.line}></div>
-        </div>
+        </a>
     )
 }
 
-const mapStateToProps = (state) => {
-    return {
-        option: state.HomeReducer.option,
-    }
-}
-
-export default connect(
-    mapStateToProps
-)(MenuElement)
+export default MenuElement

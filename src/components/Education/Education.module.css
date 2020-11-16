@@ -1,0 +1,24 @@
+.container{
+    background-color: #27282D59;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px 5px 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.title{
+    margin: 3px 0 3px 0;
+}
+.subtitleContainer{
+    display: flex;
+    align-items: center;
+}
+.location{
+   margin-left: 10px;
+}
+.school{
+    font-weight: bolder;
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+{
+    "technologies":[
+        {"name":"React", "percentage":70, "color":"#ff5e5b"},
+        {"name":"Redux", "percentage":40, "color":"#ff5e5b"},
+        {"name":"JavaScript", "percentage":70, "color":"#ff5e5b"},
+        {"name":"HTML", "percentage":60, "color": "#ff5e5b"},
+        {"name":"CSS", "percentage":50, "color": "#ff5e5b"},
+        {"name":"Node.js", "percentage":40, "color":"#ff5e5b"},
+        {"name":"Git/Github", "percentage":50, "color":"#ff5e5b"},
+        {"name":"SQL", "percentage":60, "color":"#ff5e5b"},
+        {"name":"C#", "percentage":50, "color":"#ff5e5b"},
+        {"name":"Firebase", "percentage":40, "color":"#ff5e5b"}
+    ],
+    "options":[
+        "Technologies", "Experience", "Education", "Projects"
+    ],
+    "experience":[
+        {"name":"Freelance Web Developer", "company":"Ave de Paraíso", "timespan":"March 2020 - October 2020"},
+        {"name":"Automation Developer", "company":"Jabil", "timespan":"March 2019 - November 2019"},
+        {"name":"Automation Developer", "company":"Sanmina", "timespan":"December 2017 - March 2019"},
+        {"name":"Trainee", "company":"Tata Consultancy Services", "timespan":"November 2016 - August 2017"}
+    ],
+    "education":[
+        {"course":"Mechatronic Engineering", "school":"CETI", "location": "Guadalajara, Mexico", "timespan":"2011 - 2016"},
+        {"course":"English", "school":"Cork English College", "location": "Cork, Ireland", "timespan":"2019 - 2020"}
+    ],
+    "projects":[
+        {"name":"Staff Management App" , "company":"Ave de Paraíso", "technologies":["React", "Firebase"], 
+            "description":"Build a full web application to keep track of tasks, payments and employees assistance for a berry farm in Jalisco"},
+        {"name":"Ethernet/IP Communication Library " , "company":"Jabil", "technologies":["C#", ".NET", "React"], 
+            "description":"Develop machine to machine communication libraries and Web interfaces as monitoring and control systems."}
+    ]
+}

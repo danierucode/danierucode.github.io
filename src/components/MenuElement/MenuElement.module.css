@@ -5,7 +5,11 @@
     font-size: 10px;
     opacity: 1;
 }
+.selected{
+    font-weight: bold;
+}
 .container{
+    text-decoration: none;
     background-color:#27282D8F;
     height: 6vh;
     cursor: pointer;

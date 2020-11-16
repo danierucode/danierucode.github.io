@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux'
-import {Reducer as HomeReducer} from './home-rdx'
+import getReducerObject from './reducer-factory'
 
-const Reducer=combineReducers({HomeReducer})
+const Reducer=combineReducers(getReducerObject())
 
 export default Reducer

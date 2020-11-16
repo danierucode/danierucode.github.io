@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.name{
+    display:block;
+    width:30%;
+    margin-right: 10px;
+    color:#E8E8E8;
+    margin:15px 10px 15px 0; 
+}
+
+.barContainer{
+    width: 70%;
+    height: 25px;
+    display: block;
+}

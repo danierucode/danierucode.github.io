@@ -1,0 +1,26 @@
+.container{
+    background-color: #27282D59;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+.title{
+    margin: 3px 0 3px 0;
+}
+.subtitleContainer{
+    display: flex;
+    align-items: center;
+}
+.timespan{
+   margin-left: 10px;
+}
+.company{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.description{
+    margin: 5px 0 5px 0;
+}

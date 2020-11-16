@@ -5,14 +5,14 @@ import {connect} from 'react-redux'
 const OptionContainer =(props)=>{
     return (
         <section className={Styles.container} >
-            {props.component}
+            {props.optionsComponentMap[props.option]}
         </section>
     )
 }
 
-const mapStateToProps=(state)=>{
+const mapStateToProps=(state, ownProps)=>{
     return {
-        component:state.HomeReducer.component
+        option:state[`menu_${ownProps.menuName}`].option
     }
 }
 
