@@ -29,5 +29,11 @@
             "description":"Build a full web application to keep track of tasks, payments and employees assistance for a berry farm in Jalisco"},
         {"name":"Ethernet/IP Communication Library " , "company":"Jabil", "technologies":["C#", ".NET", "React"], 
             "description":"Develop machine to machine communication libraries and Web interfaces as monitoring and control systems."}
-    ]
+    ],
+    "contact":{
+        "mail":"jd.michel@outlook.com",
+        "linkedin":"https://www.linkedin.com/in/jesus-daniel-michel-corona-552615112/",
+        "github":"https://github.com/danierucode/danierucode.github.io",
+        "phone":"3316019236"
+    }
 }
