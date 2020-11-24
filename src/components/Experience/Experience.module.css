@@ -24,3 +24,12 @@
 .description{
     margin: 5px 0 5px 0;
 }
+@media(max-width:700px){
+    .container{
+        font-size: 12px;
+        margin: 0 10px 10px 10px;
+    }
+    .company{
+        font-size: 12px;
+    }
+}

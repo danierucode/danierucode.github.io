@@ -1,9 +1,26 @@
+.background{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .home {
     display: flex;
     padding: 10vh 3vw 10vh 3vw;
     height: 80vh;
+    position: absolute;
+    top: 0;
 }
 body{
     background-color: transparent linear-gradient(180deg, #000000C9 0%, #383838A6 50%, #41414140 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+@media (max-width: 1000px){
+    .home{
+        padding: 5vh 3vw 0 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
 }

@@ -14,3 +14,14 @@
 .container::-webkit-scrollbar{
    background-color: transparent; 
 }
+@media(max-width:1000px){
+    .container{
+        background-color: transparent;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 12vh;
+        height: auto;
+        overflow-y: hidden;
+    }
+}
